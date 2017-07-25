@@ -27,11 +27,13 @@
 .logo{
     width: 150px;
     height: 70px;  
-    float: left;  
+    float: left; 
+    position: absolute; 
     padding: 0px;
     padding-right: 10px;
     align-items: center;
-    text-align: center
+    text-align: center;
+    color: #fff;
 }
 
 /*Background*/
@@ -41,13 +43,12 @@
 }
 .bg-black{
     background-color: #000;
-    color: #000;
+    color: #fff;
 }
 
 /*Modal*/
 /*background*/
-.modal{
-    
+.modal{    
     position: fixed;
     z-index: 1;
     left: 0;
