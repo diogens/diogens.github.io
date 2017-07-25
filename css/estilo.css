@@ -35,6 +35,16 @@
     text-align: center;
     color: #fff;
 }
+.main-content{
+    margin: 40px;
+}
+.post{
+    border: 1px solid #fffff0;
+    /*box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);*/
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 /*Background*/
 .bg-gold{
