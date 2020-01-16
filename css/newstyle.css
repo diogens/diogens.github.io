@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(182, 154, 246);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+body {
+  display: flex;
+  font-family: "Fira Sans", monospace;
+  color: #fff;
+  background: url(https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 10px;
+}
+h3 {
+  font-size: 20px;
+  color: #888;
+}
+
+body::after {
+  content: " ";
+  background: radial-gradient(rgb(0, 0, 0), rgb(14, 2, 44));
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  opacity: 0.9;
+  z-index: -3;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.container {
+  width: 300px;
+
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content h4 {
+  margin: 10px;
+}
+
+.content h4 a {
+  color: #777;
+  margin: 10px 30px;
+  font-size: 20px;
+}
